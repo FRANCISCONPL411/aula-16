@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Posicionamento</title>
+		<meta charset="utf-8"/>
+		<style type="text/css">
+			body{
+				font-family:"Arial", sans-serif;
+				font-size: 24px;
+				background: #61bdbc;
+				margin: 0px;
+			}
+			#conteudo{
+				background: #FFFFFF;
+				padding: 10px;
+				width: 900px;
+				margin: 100px auto;
+			}
+			.caixa{
+				background: red;
+				margin: 10px;
+				width: 150px;
+				height: 150px;
+				color: #FFFFFF;
+			}
+			#relativo{
+				position: relative;
+				left: 30px;
+			}
+			#absoluto{
+				position: absolute;
+				left: 30px;
+			}
+			#fixo{
+				position: fixed;
+				left: 330px;
+				top: 10px;
+			}
+		</style>
+	
+	</head>
+	<body>
+		<span> Container body</span>
+
+		<div id="conteudo"> 
+			Container div
+			<div id="relativo" class="caixa">
+				caixa 01 - Relativo
+			</div>
+
+			<div id="fixo" class="caixa">
+				caixa 02 - Fixo
+			</div>
+
+			<div id="absoluto" class="caixa">
+				caixa 03 - Absoluto
+			</div>
+
+			<div id="relativo">
+				<a href="posicionamento1.html"><b>EXERCÍCIO - POSICIONAMENTO 1 </b></a>
+			</div>
+
+			<div id="relativo">
+				<a href="posicionamento2.html"><b>EXERCÍCIO - POSICIONAMENTO 2 </b></a>
+			</div>
+
+			
+		</div>
+
+
+
+
+
+	</body>
+</html>
